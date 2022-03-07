@@ -1,0 +1,215 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css";
+
+body {
+    font-family: Helvetica, sans-serif ;
+}
+
+h2, h5, p {
+    color: #454545;
+}
+
+span {
+    color: #008cba;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    width: 6%;
+    height: 2px;
+    border-radius: 2px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.name {
+    position: absolute;
+    top: -5px;
+    margin-left: 70px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 70px;
+}
+
+.navbar ul li a {
+
+    color: #454545;
+}
+
+.navbar ul li:hover {
+
+    border-bottom: 3px solid #008cba;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.hero-text {
+    color: white;
+    background-color: rgba(0, 0, 0, .5);
+    height: 154px;
+    width: 325px;
+
+    position: absolute;
+    top: 361px;
+    left: 185px;
+}
+
+.hero-text button {
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #008cba;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    margin: 20px;
+}
+
+.welcome button {
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #454545;
+}
+
+.welcome hr {
+    background-color: #008cba;
+}
+
+.services{
+    
+    margin: 50px;
+}
+
+.services-divs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    
+}
+
+.service img{
+    width: 90%;
+}
+
+.service h5 {
+    font-size: 20px;
+    color: #454545;
+}
+
+
+
+.service button{
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #454545;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.services hr {
+    background-color: #454545;
+}
+
+.newsletter {
+    text-align: center;
+    background-color: #454545;
+   padding: 20px 0;
+   width: 100%;
+    
+}
+
+.newsletter hr {
+    background-color: white;
+}
+
+.newsletter h2, .newsletter p {
+    color: white;
+}
+
+.newsletter input {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #545a5e;
+}
+
+.newsletter button{
+    border-radius: 8px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #008cba;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+
+    background-color: #2f3539;
+    color: white;
+    
+}
+
+footer ul li {
+    line-height: 2rem;
+}
+
+.followus ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+footer a, footer h5 {
+    color: white;
+}
+
+.down-footer {
+    padding: 20px;
+    color: white;
+    background-color: #262b2f;
+    text-align: center;
+}

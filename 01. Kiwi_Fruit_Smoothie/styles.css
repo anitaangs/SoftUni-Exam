@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+ 
+body {
+    font-family: 'PT Serif', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.recipe {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 2rem;
+
+    background-image: url(image/image1.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.how {
+    width: 50%;
+}
+
+.kiwipic {
+    width: 49%;
+}
+
+.kiwipic img {
+    width: 95%;
+    height: 400px;
+}
+
+.how p {
+    padding: 0 35px;
+}
+
+.how hr {
+    background-color: #128617;
+    width: 95%;
+}
+
+.how h1 {
+    text-align: center;
+}
+
+.how ul li span {
+    color: #128617;
+    font-weight: bold;
+}
+
+.servings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-style: italic;
+}
+
+table, td, th {
+    border: 1px solid #128617;
+}
+
+table {
+    margin: 0 35px;
+    width: 90%;
+    border-collapse: collapse;
+  }
